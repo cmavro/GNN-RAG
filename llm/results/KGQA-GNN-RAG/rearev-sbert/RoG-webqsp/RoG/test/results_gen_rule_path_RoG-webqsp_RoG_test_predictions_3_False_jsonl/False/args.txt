@@ -1,0 +1,23 @@
+{
+  "data_path": "rmanluo",
+  "d": "RoG-webqsp",
+  "split": "test",
+  "predict_path": "results/KGQA-G-sbert",
+  "model_name": "RoG",
+  "prompt_path": "prompts/llama2_predict.txt",
+  "add_rule": true,
+  "use_true": false,
+  "cot": false,
+  "explain": false,
+  "use_random": false,
+  "each_line": false,
+  "rule_path": "results/gen_rule_path/RoG-webqsp/RoG/test/predictions_3_False.jsonl",
+  "force": false,
+  "n": 1,
+  "filter_empty": false,
+  "debug": false,
+  "encrypt": false,
+  "model_path": "rmanluo/RoG",
+  "max_new_tokens": 512,
+  "dtype": "fp16"
+}
